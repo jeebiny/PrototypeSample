@@ -46,6 +46,8 @@
 		2CD7828E182F221300CF250C /* LSScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD7828D182F221300CF250C /* LSScrollViewController.m */; };
 		2CD78291182F222500CF250C /* LSPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD78290182F222500CF250C /* LSPickerViewController.m */; };
 		2CD78294182F222F00CF250C /* LSPagingScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD78293182F222F00CF250C /* LSPagingScrollViewController.m */; };
+		2CD78298182F24F500CF250C /* LSLongContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD78296182F24F500CF250C /* LSLongContentViewController.m */; };
+		2CD78299182F24F500CF250C /* LSLongContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD78297182F24F500CF250C /* LSLongContentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +109,9 @@
 		2CD78290182F222500CF250C /* LSPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSPickerViewController.m; path = ViewControllers/LSPickerViewController.m; sourceTree = "<group>"; };
 		2CD78292182F222F00CF250C /* LSPagingScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSPagingScrollViewController.h; path = ViewControllers/LSPagingScrollViewController.h; sourceTree = "<group>"; };
 		2CD78293182F222F00CF250C /* LSPagingScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSPagingScrollViewController.m; path = ViewControllers/LSPagingScrollViewController.m; sourceTree = "<group>"; };
+		2CD78295182F24F500CF250C /* LSLongContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSLongContentViewController.h; path = ViewControllers/LSLongContentViewController.h; sourceTree = "<group>"; };
+		2CD78296182F24F500CF250C /* LSLongContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSLongContentViewController.m; path = ViewControllers/LSLongContentViewController.m; sourceTree = "<group>"; };
+		2CD78297182F24F500CF250C /* LSLongContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LSLongContentViewController.xib; path = ViewControllers/LSLongContentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +180,7 @@
 				2CCF5746182EA4D400A748EF /* PagingScrollView */,
 				2C843942182E7C6A00DE0B89 /* Navigation.storyboard */,
 				2CD78286182F217D00CF250C /* ContentViews.storyboard */,
+				2CD7829A182F24FC00CF250C /* LongContent */,
 				2C843948182E7C6A00DE0B89 /* Images.xcassets */,
 				2C843937182E7C6A00DE0B89 /* Supporting Files */,
 			);
@@ -299,6 +305,16 @@
 			name = CustomSegue;
 			sourceTree = "<group>";
 		};
+		2CD7829A182F24FC00CF250C /* LongContent */ = {
+			isa = PBXGroup;
+			children = (
+				2CD78295182F24F500CF250C /* LSLongContentViewController.h */,
+				2CD78296182F24F500CF250C /* LSLongContentViewController.m */,
+				2CD78297182F24F500CF250C /* LSLongContentViewController.xib */,
+			);
+			name = LongContent;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -376,6 +392,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD78299182F24F500CF250C /* LSLongContentViewController.xib in Resources */,
 				2C843949182E7C6A00DE0B89 /* Images.xcassets in Resources */,
 				2CD78272182F20E100CF250C /* Nell_5.jpg in Resources */,
 				2CD7827E182F213600CF250C /* 0001_1.png in Resources */,
@@ -419,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CD78294182F222F00CF250C /* LSPagingScrollViewController.m in Sources */,
+				2CD78298182F24F500CF250C /* LSLongContentViewController.m in Sources */,
 				2C84393D182E7C6A00DE0B89 /* main.m in Sources */,
 				2CD7828B182F21C700CF250C /* CutSegue.m in Sources */,
 				2CD7828E182F221300CF250C /* LSScrollViewController.m in Sources */,
