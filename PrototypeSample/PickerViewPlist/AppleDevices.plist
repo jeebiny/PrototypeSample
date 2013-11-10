@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iPhone</key>
+	<array>
+		<string>iPhone</string>
+		<string>iPhone 3G</string>
+		<string>iPhone 3Gs</string>
+		<string>iPhone 4</string>
+		<string>iPhone 4s</string>
+		<string>iPhone 5</string>
+		<string>iPhone 5c</string>
+		<string>iPhone 5s</string>
+	</array>
+	<key>iPad</key>
+	<array>
+		<string>iPad</string>
+		<string>iPad mini</string>
+		<string>iPad Air</string>
+	</array>
+	<key>Mac</key>
+	<array>
+		<string>Macbook Pro</string>
+		<string>Macbook Air</string>
+		<string>Mac Pro</string>
+		<string>iMac</string>
+		<string>Mac mini</string>
+	</array>
+</dict>
+</plist>
