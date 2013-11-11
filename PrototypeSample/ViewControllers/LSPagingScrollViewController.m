@@ -43,7 +43,7 @@
         }
         scrollView.contentSize = CGSizeMake(leftOrigin + self.scrollPageWidth+self.scrollPageSpace, self.scrollPageHeight);
         if (pageControl != nil){
-            pageControl.numberOfPages = imageCount;
+            pageControl.numberOfPages = imageCount + 1;
             pageControl.selected = 0;
         }
     }
